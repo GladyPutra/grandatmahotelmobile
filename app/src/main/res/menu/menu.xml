@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menuDataDiri"
+        android:title="Data Diri"
+        />
+
+    <item
+        android:id="@+id/menuKamar2"
+        android:title="Tipe Kamar"
+        />
+
+    <item
+        android:id="@+id/menuKamar"
+        android:title="Kamar"
+        />
+
+    <item
+        android:id="@+id/menuReservasi2"
+        android:title="Buat Reservasi"
+        />
+
+    <item
+        android:id="@+id/menuReservasi"
+        android:title="Data Reservasi"
+        />
+
+    <item
+        android:id="@+id/menuHistoriReservasi"
+        android:title="Histori Reservasi"
+        />
+
+    <item
+        android:id="@+id/menuTampilNota"
+        android:title="Tampil Nota"
+        />
+
+    <item
+        android:id="@+id/menuPassword"
+        android:title="Ganti Kata Sandi"
+        />
+
+    <item
+        android:id="@+id/menuLogout"
+        android:title="Keluar"
+        />
+</menu>

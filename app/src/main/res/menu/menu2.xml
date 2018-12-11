@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menuLaporan1"
+        android:title="Laporan Pendapatan per Jenis Tamu per Bulan"
+        />
+
+    <item
+        android:id="@+id/menuLaporan2"
+        android:title="Laporan Jumlah Tamu per Jenis Kamar per Bulan"
+        />
+
+    <item
+        android:id="@+id/menuLaporan3"
+        android:title="Laporan Pendapatan per Tahun di Semua Cabang"
+        />
+
+    <item
+        android:id="@+id/menuLaporan5"
+        android:title="Laporan Tamu Baru per Bulan"
+        />
+
+    <item
+        android:id="@+id/menuLaporan4"
+        android:title="Laporan 5 Tamu dengan Pemesanan Terbanyak"
+        />
+
+    <!--<item-->
+        <!--android:id="@+id/menuLaporan6"-->
+        <!--android:title="Laporan Pendapatan dan Jumlah Tamu per Bulan"-->
+        <!--/>-->
+
+    <item
+        android:id="@+id/menuPassword"
+        android:title="Ganti Kata Sandi"
+        />
+
+    <item
+        android:id="@+id/menuLogout"
+        android:title="Keluar"
+        />
+</menu>

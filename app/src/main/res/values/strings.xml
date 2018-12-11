@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">GAHMobile</string>
+
+    <string-array name="kota">
+        <item>- Pilih Kota -</item>
+        <item>Bandung</item>
+        <item>Yogyakarta</item>
+    </string-array>
+    <string-array name="kamar">
+        <item>- Pilih Kamar -</item>
+        <item>Junior Suite</item>
+        <item>Double Deluxe</item>
+        <item>Executive Deluxe</item>
+        <item>Superior</item>
+    </string-array>
+    <string-array name="item">
+        <item>- Pilih Item -</item>
+        <item>1. Paket Lunch,Dinner dan Meeting Room</item>
+        <item>2. Paket Ekstra Bed</item>
+        <item>3. Paket Tambahan Breakfast</item>
+        <item>4. Paket Laundry,Massage dan Minibar</item>
+    </string-array>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_laporan1">Laporan1Activity</string>
+    <string name="title_activity_laporan2">Laporan2Activity</string>
+    <string name="title_activity_laporan3">Laporan3Activity</string>
+    <string name="title_activity_laporan4">Laporan4Activity</string>
+    <string name="title_activity_laporan5">Laporan5Activity</string>
+</resources>

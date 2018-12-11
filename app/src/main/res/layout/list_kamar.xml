@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/gradient"
+    android:id="@+id/item_room">
+
+    <ImageView
+        android:id="@+id/imageView00"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/txtkamar00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/txtnama00"
+        android:layout_marginTop="51dp"
+        android:text="Nama"
+        android:textColor="#fff"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/txtnama00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="21dp"
+        android:text="ID"
+        android:textColor="#fff"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/txtstatus00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/txtnama00"
+        android:layout_marginTop="81dp"
+        android:text="Status"
+        android:textColor="#fff" />
+
+    <TextView
+        android:id="@+id/txtharga00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/txtnama00"
+        android:layout_marginTop="111dp"
+        android:layout_marginLeft="25dp"
+        android:text="Harga"
+        android:textColor="#fff" />
+
+    <TextView
+        android:id="@+id/textviewlala"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="111dp"
+        android:layout_marginLeft="160dp"
+        android:text="Rp. "
+        android:textColor="#fff" />
+
+</RelativeLayout>
