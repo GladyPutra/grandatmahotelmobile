@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.gladyputra.gahmobile">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activity.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity.RegisterActivity" />
+        <activity android:name=".Activity.ProfileActivity" />
+        <activity android:name=".Activity.RoomActivity" />
+        <activity android:name=".Activity.Register2Activity" />
+        <activity android:name=".Activity.LupaPasswordActivity" />
+        <activity android:name=".Activity.GeneratePassActivity" />
+        <activity android:name=".Activity.ReservasiActivity" />
+        <activity android:name=".Activity.ShowDataDiriActivity" />
+        <activity android:name=".Activity.UpdateDataDiriActivity" />
+        <activity android:name=".Activity.ShowReport1Activity" />
+        <activity android:name=".Activity.ShowReport2Activity" />
+        <activity android:name=".Activity.ShowReport3Activity" />
+        <activity android:name=".Activity.ShowReport4Activity" />
+        <activity android:name=".Activity.Profile2Activity" />
+        <activity android:name=".Activity.RoomDetailActivity" />
+        <activity android:name=".Activity.ListRoomActivity" />
+        <activity android:name=".Activity.ShowReport5Activity" />
+        <activity android:name=".Activity.InputReservasiActivity" />
+        <activity android:name=".Activity.EditReservasiActivity" />
+        <activity android:name=".Activity.DetilReservasiActivity" />
+        <activity android:name=".Activity.ShowReport6Activity" />
+        <activity android:name=".Activity.NotaActivity" />
+        <activity
+            android:name=".Activity.Laporan1Activity"
+            android:label="@string/title_activity_laporan1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activity.Laporan2Activity"
+            android:label="@string/title_activity_laporan2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activity.Laporan3Activity"
+            android:label="@string/title_activity_laporan3"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activity.Laporan4Activity"
+            android:label="@string/title_activity_laporan4"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activity.Laporan5Activity"
+            android:label="@string/title_activity_laporan5"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Activity.DetilReservasiAllActivity"></activity>
+    </application>
+
+</manifest>
