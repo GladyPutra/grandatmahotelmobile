@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Activity.RoomDetailActivity"
+    android:background="@drawable/gradient">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="800dp">
+
+        <TextView
+            android:id="@+id/txtfasilitas00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/txtnama00"
+            android:layout_marginTop="410dp"
+            android:text="Fasilitas"
+            android:textColor="#fff" />
+
+        <TextView
+            android:id="@+id/txtstatus00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/txtnama00"
+            android:layout_marginTop="250dp"
+            android:text="Status"
+            android:textColor="#fff" />
+
+        <TextView
+            android:id="@+id/txtharga00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/txtnama00"
+            android:layout_marginTop="290dp"
+            android:text="Harga"
+            android:textColor="#fff" />
+
+        <TextView
+            android:id="@+id/txtsmoking00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/txtnama00"
+            android:layout_marginTop="370dp"
+            android:text="Status Smoking"
+            android:textColor="#fff" />
+
+        <ImageView
+            android:id="@+id/imageView00"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            app:srcCompat="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/txtnama00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="170dp"
+            android:text="ID"
+            android:textColor="#fff"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/txtkamar00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/txtnama00"
+            android:layout_marginTop="210dp"
+            android:text="Nama"
+            android:textColor="#fff"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/txttidur00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/txtnama00"
+            android:layout_marginTop="330dp"
+            android:text="Tempat Tidur"
+            android:textColor="#fff" />
+
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".Activity.RoomActivity">
+
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="179dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/txtjmlh"
+        android:layout_marginTop="18dp"
+        android:fontFamily="cursive"
+        android:text="Grand Atma Hotel"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="168dp"
+        android:text="Kamar"
+        android:textColor="@android:color/white"
+        android:textSize="24sp" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_profil"
+        android:layout_width="260dp"
+        android:layout_height="36dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="19dp"
+        android:background="@drawable/buttonshape"
+        android:padding="5dp"
+        android:text="Profil" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="143dp"
+        android:layout_height="88dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="62dp"
+        app:srcCompat="@drawable/kamar" />
+
+    <TextView
+        android:id="@+id/txtjmlh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/txtJumlahKamar"
+        android:layout_marginBottom="87dp"
+        android:fontFamily="serif"
+        android:text="Jumlah Kamar"
+        android:textColor="@android:color/white"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/txtJumlahKamar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/txtNamaKamar"
+        android:layout_marginBottom="117dp"
+        android:fontFamily="sans-serif"
+        android:text="Jumlah Kamar"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/txtharga_kamar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/txtnama_kamar"
+        android:layout_toEndOf="@+id/textView5"
+        android:fontFamily="serif"
+        android:text="Nama Kamar"
+        android:textColor="@android:color/white"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/txtnama_kamar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/txtJumlahKamar"
+        android:layout_marginBottom="155dp"
+        android:fontFamily="serif"
+        android:text="Nama Kamar"
+        android:textColor="@android:color/white"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/txtNamaKamar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/txtcari"
+        android:layout_marginBottom="187dp"
+        android:fontFamily="serif"
+        android:text="Nama Kamar"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/txtHargaKamar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/txtNamaKamar"
+        android:layout_toEndOf="@+id/textView5"
+        android:fontFamily="serif"
+        android:text="Harga Kamar"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/txtcari"
+        android:layout_width="176dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="15dp"
+        android:background="#11000000"
+        android:drawableLeft="@drawable/ic_action_search"
+        android:ems="10"
+        android:hint="Cari Kamar"
+        android:inputType="text"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_cari"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="72dp"
+        android:layout_height="37dp"
+        android:layout_alignEnd="@+id/imageView"
+        android:layout_centerVertical="true"
+        android:text="Cari" />
+
+</RelativeLayout>

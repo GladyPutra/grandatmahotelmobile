@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".Activity.UpdateDataDiriActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="800dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="800dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true">
+
+            <EditText
+                android:id="@+id/txtharga_kamar"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="278dp"
+                android:background="#11000000"
+                android:drawableLeft="@drawable/ic_action_username"
+                android:ems="10"
+                android:hint="Nama Lengkap"
+                android:inputType="textPersonName"
+                android:textColor="@android:color/white"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/txttelpon"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="#11000000"
+                android:drawableLeft="@drawable/ic_action_phone"
+                android:ems="10"
+                android:hint="No. Telpon"
+                android:inputType="phone"
+                android:textColor="@android:color/white"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/txtidentitas"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="328dp"
+                android:background="#11000000"
+                android:drawableLeft="@drawable/ic_action_identity"
+                android:ems="10"
+                android:hint="No. Identitas"
+                android:inputType="numberSigned"
+                android:textColor="@android:color/white"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/txtemail"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="330dp"
+                android:background="#11000000"
+                android:drawableLeft="@drawable/ic_action_email"
+                android:ems="10"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:textColor="@android:color/white"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/txtalamat"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="277dp"
+                android:background="#11000000"
+                android:drawableLeft="@drawable/ic_action_address"
+                android:ems="10"
+                android:hint="Alamat"
+                android:inputType="text"
+                android:textColor="@android:color/white"
+                android:textSize="16dp" />
+
+            <RadioGroup
+                android:id="@+id/rad_grup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignStart="@+id/txtharga_kamar"
+                android:layout_marginBottom="154dp">
+
+                <RadioButton
+                    android:id="@+id/rad_laki2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:onClick="checkButton"
+                    android:text="Laki - Laki"
+                    android:textColor="@android:color/white" />
+
+                <RadioButton
+                    android:id="@+id/rad_perempuan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="checkButton"
+                    android:text="Perempuan"
+                    android:textColor="@android:color/white" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="119dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignStart="@+id/txtharga_kamar"
+                android:layout_marginBottom="236dp"
+                android:text="Jenis Kelamin"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btn_batal"
+                android:layout_width="280dp"
+                android:layout_height="36dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="22dp"
+                android:background="@drawable/buttonshape2"
+                android:padding="5dp"
+                android:text="Batal" />
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btn_ubah"
+                android:layout_width="280dp"
+                android:layout_height="36dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="78dp"
+                android:background="@drawable/buttonshape"
+                android:padding="5dp"
+                android:text="Konfirmasi" />
+
+            <TextView
+                android:id="@+id/txtusername"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignStart="@+id/txtharga_kamar"
+                android:layout_marginTop="235dp"
+                android:text="TextView"
+                android:textColor="@android:color/white"
+                android:visibility="invisible" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="183dp"
+            android:text="Ubah Data Diri"
+            android:textColor="@android:color/white"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="174dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="18dp"
+            android:fontFamily="cursive"
+            android:text="Grand Atma Hotel"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:textStyle="italic" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="159dp"
+            android:layout_height="104dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="66dp"
+            app:srcCompat="@drawable/login" />
+
+    </RelativeLayout>
+</ScrollView>
